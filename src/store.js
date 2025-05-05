@@ -5,7 +5,7 @@ import userReducer from './reducers/userReducer';
 const store = configureStore({
   reducer: {
     tasks: taskReducer,
-    users: userReducer, // Додано слайс для користувачів
+    users: userReducer,
   },
 });
 
